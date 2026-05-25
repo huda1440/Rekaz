@@ -14,7 +14,7 @@ var ctx1 = canvas1.getContext('2d');
 var img1 = new Image();
 img1.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#308F98",'p2.jpg',345,750));
+window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#233d95",'p2.jpg',345,750));
 
 
 var canvas2 = document.getElementById('imageCanvas2');
