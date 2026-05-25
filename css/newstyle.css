@@ -80,7 +80,7 @@ padding: 16px 28px;
 }
 
 .button4 {
-  background-color: #0B656E;
+  background-color: #233d95;
 }
 
 .button4:hover {
@@ -141,7 +141,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 label {
-  background-color: #0B656E;
+  background-color: #233d95;
   color: black;
   font-weight: bold;
   padding: 8px;
@@ -160,7 +160,7 @@ a {
 }
 
 #footer {
-  background-color: #0B656E;
+  background-color: #233d95;
   color: #fff;
   font-size: 8pt;
   letter-spacing: 1px;
