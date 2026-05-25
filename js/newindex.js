@@ -6,7 +6,7 @@ var ctx = canvas.getContext('2d');
 var img = new Image();
 img.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img,ctx,"#0B656E",'p3.jpg',470,600));
+window.addEventListener('load', DrawPlaceholder(img,ctx,"#233d95",'p3.jpg',470,600));
 
 
 var canvas1 = document.getElementById('imageCanvas1');
@@ -22,7 +22,7 @@ var ctx2 = canvas2.getContext('2d');
 var img2 = new Image();
 img2.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#0B656E",'p1.jpg',345,580));
+window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#233d95",'p1.jpg',345,580));
 
 
 function DrawPlaceholder(photo,canv,clr,sorc,x,y) {
