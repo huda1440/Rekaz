@@ -25,27 +25,6 @@ img2.crossOrigin="anonymous";
 window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#0B656E",'p1.jpg',345,580));
 
 
-
-
-
-var canvas4 = document.getElementById('imageCanvas4');
-var ctx4 = canvas4.getContext('2d');
-var img4 = new Image();
-img4.crossOrigin="anonymous";
-
-window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#0B656E",'p5.jpg',350,100));
-
-
-
-var canvas5 = document.getElementById('imageCanvas5');
-var ctx5 = canvas5.getContext('2d');
-var img5 = new Image();
-img5.crossOrigin="anonymous";
-
-window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#0B656E",'p6.jpg',350,250));
-
-
-
 function DrawPlaceholder(photo,canv,clr,sorc,x,y) {
     photo.onload = function() {
         DrawOverlay(photo,canv);
@@ -100,22 +79,7 @@ download_img2 = function(el) {
   el.href = image2;
 };
 
-download_img3 = function(el) {
-  var image3 = canvas3.toDataURL("image/jpg");
-  el.href = image3;
-};
 
-
-
-download_img5 = function(el) {
-  var image5 = canvas5.toDataURL("image/jpg");
-  el.href = image5;
-};
-
-download_img6 = function(el) {
-  var image6 = canvas6.toDataURL("image/jpg");
-  el.href = image6;
-};
 
 function setWordOrder(e) {
 	if (e.key == " ") {
