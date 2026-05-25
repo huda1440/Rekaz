@@ -25,12 +25,6 @@ img2.crossOrigin="anonymous";
 window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#0B656E",'p1.jpg',345,600));
 
 
-var canvas3 = document.getElementById('imageCanvas3');
-var ctx3 = canvas3.getContext('2d');
-var img3 = new Image();
-img3.crossOrigin="anonymous";
-
-    window.addEventListener('load', DrawPlaceholder(img3,ctx3,"#FFFFFF",'p4.jpg',350,400));
 
 
 
