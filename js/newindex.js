@@ -14,7 +14,7 @@ var ctx1 = canvas1.getContext('2d');
 var img1 = new Image();
 img1.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#233d95",'p2.jpg',345,600));
+window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#233d95",'p2.jpg',345,500));
 
 
 var canvas2 = document.getElementById('imageCanvas2');
@@ -22,7 +22,7 @@ var ctx2 = canvas2.getContext('2d');
 var img2 = new Image();
 img2.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#0B656E",'p1.jpg',345,600));
+window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#0B656E",'p1.jpg',345,500));
 
 
 
@@ -105,10 +105,7 @@ download_img3 = function(el) {
   el.href = image3;
 };
 
-download_img4 = function(el) {
-  var image4 = canvas4.toDataURL("image/jpg");
-  el.href = image4;
-};
+
 
 download_img5 = function(el) {
   var image5 = canvas5.toDataURL("image/jpg");
